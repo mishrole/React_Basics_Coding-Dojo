@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+ul {
+    margin-left: 2em;
+}
+
 .codingDojo {
     align-items: center;
     display: flex;
