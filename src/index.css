@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    color: #141414;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.codingDojo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.tick {
+    border: 1px solid #c4c4c4;
+    border-radius: 1em;
+    font-weight: bold;
+    margin: 1em;
+    padding: 2em;
+}
+
+@media (min-width: 768px) {
+    .codingDojo {
+        flex-direction: row;
+    }
+}
